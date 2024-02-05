@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&family=Montserrat+Alternates:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>Book Now</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: space-evenly;
+        background-image: linear-gradient(to right, rgba(21, 21, 21, 0.883), rgb(14, 13, 13));
+    }
+    .container{
+        margin-top:200px;
+    }
+    select{
+        width:200px;
+        height:30px;
+    }
+    input{
+        width:200px;
+        height:30px;
+    }
+    #col1{
+        background-color: white;
+        padding: 20px;
+    }
+    label{
+        font-family: 'Karla', sans-serif;
+    }
+    h1{
+        
+            font-family: 'Montserrat Alternates', sans-serif;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="col1">
+                 <label for="location">PICK-UP LOCATION:</label>
+               
+                  <select>
+                    <option>Hyderabad</option>
+                    <option>Secundrabad</option>
+                    <option>Kamareddy</option>
+                    <option>Medak</option>
+                    <option>Warangal</option>
+                    <option>Karimnagar</option>
+                    <option>Siddipet</option>
+                    <option>Sangareddy</option>
+                    <option>Narsapur</option>
+                   </select>
+                   <br><br>
+                   <label for="date">PICK-UP DATE:</label>
+                   <input type="date">
+                   <br><br>
+                   <label for="date">REYURN DATE:</label>
+                   <input type="date">
+                   <br><br>
+
+  <label for="location">CHOOSE CAR TYPE:</label>
+               
+                  <select>
+                    <option>Honda Civic</option>
+                    <option>Toyota Corolla</option>
+                    <option>Hyundai Elantra</option>
+                    <option>Maruti Dzire</option>
+                    <option>Tata Tigor</option>
+                    <option>Hyundai Verna</option>
+                    <option>MahindraXUV300</option>
+                    <option>MahindraScorpio-N</option>
+                    <option>Mercedes-Benz</option>
+                    <option>Audi Q8</option>
+                    <option>Range Rover</option>
+                    <option>BMW 7 Series</option>
+                    <option>Compact Van</option>
+                    <option>Panel Van</option>
+                    <option>Micro Van</option>
+                  </select>
+                   <br><br>
+                   <button style="margin-left:100px;width:100px ;height:30px;background-color: red;cursor: pointer;border-radius:5px;"onClick="Submit()"><b>Submit</b></button>
+            </div>
+
+        </div>
+
+    </div>
+    <!--  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="margin-top:100px;color: yellow;">BOOK A CAR TODAY!</h1>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script>
+        function Submit(){
+            alert("Your car is booked successfully")
+        }
+    </script>
+
+</body>
+</html>
